@@ -8,7 +8,7 @@ day_time = input("What is the time of day? M for morning, A afternoon, or N for 
 print(f"The wizard says: 'Why hello, {name}, you look wise for a {age} year old.'")
 
 if str(gender) == "M":
-    print(f"He saus: 'Interesting, though, I have a niece about your age - she is {age - 2} years old.'")
+    print(f"He suays: 'Interesting, though, I have a niece about your age - she is {age - 2} years old.'")
 elif str(gender) == "F":
     print(f"He says: 'Interesting, though, I have a nephew about your age - he is {age - 2} years old.'")
 else:
@@ -31,5 +31,5 @@ while i < len(num_list):
     print(num_list[i])
     i += 1
 
-print(f"'...maybe {str(num_list[3])} would be most suitable.... Yes, the land of mystery and adventure. Hold onto your hat, {name}, not many {age} year olds have ever been this far before!'")
+print(f"...maybe {str(num_list[3])} would be most suitable.... Yes, the land of mystery and adventure. Hold onto your hat, {name}, not many {age} year olds have ever been this far before!'")
 print("Before you can ask the wizard what on earth he means, you feel the ground slipping and rushing beneath your feet, as the scene around you blurs indistinguishably...")    
