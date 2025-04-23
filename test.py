@@ -3,7 +3,7 @@ print("You have entered a room where a wizard sits at a large oak desk; he tells
 name = input("Tell the wizard your name:")
 age = int(input("Tell the wizard your age:"))
 gender = input("What is your gender? M for male or F for female:")
-day_time = input("What is the time of day? M for morning, A afternoon, or N for night:")
+day_time = input("What is the time of day? M for morning, A for afternoon, or N for night:")
 
 print(f"The wizard says: 'Why hello, {name}, you look wise for a {age} year old.'")
 
