@@ -31,5 +31,11 @@ while i < len(num_list):
     print(num_list[i])
     i += 1
 
+for j in num_list:
+     print(j)
+#it will automatically define the var letter ie. j here
+#this should automatically just iterate through the list
+
+
 print(f"...maybe {str(num_list[3])} would be most suitable.... Yes, the land of mystery and adventure. Hold onto your hat, {name}, not many {age} year olds have ever been this far before!'")
 print("Before you can ask the wizard what on earth he means, you feel the ground slipping and rushing beneath your feet, as the scene around you blurs indistinguishably...")    
